@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> <head>
+    <title>Students Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div>
+
+    <h2>Students:</h2>
+
+    <br>
+
+    <div id="main"> </div>
+    <br>
+    <a href="http://localhost:8080/add">Add new record<br></a>
+    <br>
+    <form class="student-update">
+        <label for="id">ID to update: </label>
+        <input type="text" id="updateId" placeholder="ID">
+        <button type="submit" >Update</button>
+    </form>
+    <br>
+    <form class="student-delete">
+        <label for="id">ID to delete: </label>
+        <input type="text" id="id" placeholder="ID">
+        <button type="submit" >Delete</button>
+    </form>
+    <br>
+    <div class="message" style="color: blue"></div>
+
+</div>
+<script src="skrypt.js"></script>
+</body>
+</html>
